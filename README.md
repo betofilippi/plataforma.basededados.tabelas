@@ -1,4 +1,4 @@
-# TABELAS Component
+# Base de Dados - TABELAS Component
 
 Advanced table editor component for the Base de Dados workspace in plataforma.app.
 
@@ -26,8 +26,8 @@ This component follows the plataforma.app component isolation architecture:
 
 ```bash
 # Clone the repository
-git clone https://github.com/betofilippi/plataforma.tabelas.git
-cd plataforma.tabelas
+git clone https://github.com/betofilippi/plataforma.basededados.tabelas.git
+cd plataforma.basededados.tabelas
 
 # Install dependencies
 npm install
@@ -42,7 +42,7 @@ The component will be available at `http://localhost:5001`
 
 The component is automatically built and deployed to CDN. The Base de Dados workspace loads it from:
 ```
-https://cdn.jsdelivr.net/gh/betofilippi/plataforma.tabelas@latest/dist/index.js
+https://cdn.jsdelivr.net/gh/betofilippi/plataforma.basededados.tabelas@latest/dist/index.js
 ```
 
 ## 🔧 Development
@@ -81,7 +81,7 @@ The component is loaded dynamically by the DatabaseModule:
 
 ```typescript
 const handleOpenTabelas = async () => {
-  const { default: TabelasComponent } = await import('@plataforma/tabelas');
+  const { default: TabelasComponent } = await import('@plataforma/basededados-tabelas');
   
   createWindow(
     'Tabelas - Instance',
@@ -150,7 +150,7 @@ Contributions are welcome! Please read CONTRIBUTING.md for guidelines.
 
 ## 🐛 Issues
 
-Report issues at: https://github.com/betofilippi/plataforma.tabelas/issues
+Report issues at: https://github.com/betofilippi/plataforma.basededados.tabelas/issues
 
 ## 👥 Authors
 

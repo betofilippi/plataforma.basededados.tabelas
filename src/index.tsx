@@ -21,7 +21,8 @@ export const componentMetadata = {
   version: '1.0.0',
   description: 'Advanced table editor with spreadsheet-like features',
   icon: 'Table',
-  repository: 'https://github.com/betofilippi/plataforma.tabelas',
+  workspace: 'basededados',
+  repository: 'https://github.com/betofilippi/plataforma.basededados.tabelas',
   author: 'NXT Platform',
   license: 'MIT',
   requirements: {
